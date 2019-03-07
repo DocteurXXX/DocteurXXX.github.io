@@ -12,71 +12,76 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Style1.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="aniron/" rel="stylesheet">
+    <link href="tengwar" rel="stylesheet">
+    <link href="party" rel="stylesheet">
 
     <title>FindMyPrecious - Integration 1</title>
 </head>
 
 <body>
 
+
 <!-- NAVIGATION - NAVBAR -->
+<section id="navbar">
   <div class="container">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        
-      <a class="navbar-brand" href="#">FindThePrecious.com</a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-sm">
+    <a class="navbar-brand" href="#">
+    <img src="chemin/logo.png" alt="Logo">
+    </a>
+    
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#fellows">Fellows</a>
+            <a class="navc" href="#fellows">Fellows |</a>
            </li>
           <li class="nav-item">
-            <a class="nav-link" href="#aboutthering">The Ring</a>
+            <a class="navc" href="#aboutthering">The Ring |</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Getmyreward">Get my reward</a>
+            <a class="navc" href="#Getmyreward">Reward |</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#besthunters">Best hunters</a>
+            <a class="navc" href="#besthunters">Hunters |</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#joinmordor">Join the army</a>
+            <a class="navc" href="#joinmordor">Join |</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Contactus">Contact us</a>
+            <a class="navc" href="#Contactus">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   </div>
+</section>
 
 
 
 
 <!-- SLIDESHOW - CARROUSEL -->
-  
+  <section id="carousel">
     <div class="container">
 
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img src="https://wallpapertag.com/wallpaper/full/9/d/c/757472-download-free-gollum-wallpapers-1920x1080.jpg" class="d-block w-100" alt="...">
+            <img src="chemin/dark_vador.jpg" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Dangerous fellowship try to destroy the ring</h1>
-              <p>Orc, Goblins, Balrogs, protect your aster Sauron !</p>
+              <h1><strong>Sauron is a very good bro,</strong></h1>
+              <p>please help him to find his ring !</p>
             </div>
 
           </div>
           <div class="carousel-item">
             <img src="http://www.hdwallpaper.nu/wp-content/uploads/2015/04/rings_the_lord_of_the_rings_one_ring_hd_wallpaper.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Find the ring</h1>
+              <h1><strong>Find the ring</strong></h1>
               <p>And fuck them all !</p>
             </div>
 
@@ -84,7 +89,7 @@
           <div class="carousel-item">
             <img src="https://wallpapertag.com/wallpaper/full/8/5/f/636830-top-balrog-wallpaper-1920x1080-for-full-hd.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Destroy the Ring Community</h1>
+              <h1><strong>Destroy the Ring Community</strong></h1>
               <p>And become the king of the Mordor !</p>
             </div>
 
@@ -100,6 +105,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </section>
 
 
 
@@ -108,18 +114,18 @@
     <div class="container">
 
       <div class="fellowstitre">
-        <h2><strong>Fellows wanted dead</strong> (or alive if you want to eat them later)</h2>
+        <h2><span class="align-top"> ij </span><strong>Fellows wanted dead</strong> (or alive if you want to eat them later)<span class="align-top"> ij </span></h2>
       </div>
 
       <ul class="nav nav-pills center-pills">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Most wanted</a>
+          <a class="navc active" href="#">Most wanted</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Most dangerous</a>
+          <a class="navc" href="#">Most dangerous</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Already captured</a>
+          <a class="navc" href="#">Already captured</a>
         </li>
       </ul>
     </div>
@@ -127,40 +133,43 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 xl-4">
           <div class="card">
             <div class="cible">
-              <img src="https://pbs.twimg.com/profile_images/532482145197912064/lRk-9xgY.jpeg" class="card-img-top" alt="...">
+              <img src="chemin/gandalf.png" title="gandalf" alt="...">
             </div>
-              <p class="rewardone">Reward 1000 gold coins</p>
+           
+              <p class="rewardone">Reward <br><strong>1000</strong> golden coins</p>
+              <p class="card-name">Gandalf</p>
             <div class="card-body">
-              <h3>The Wizard</h3>
-              <p class="card-text">Gandalf the White</p>
+              <p class="card-text">a very dangerous wizard, balrog killer ...</p>
             </div>
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 xl-4">
           <div class="card">
             <div class="cible">
-              <img src="https://pbs.twimg.com/profile_images/30110612/Frodo_400x400.jpg" class="card-img-top" alt="...">
+              <img src="chemin/aragorn.png" class="card-img-top" alt="aragorn">
             </div>
+            <p class="rewardone">Reward <br><strong>800</strong> golden coins</p>
+            <p class="card-name">Aragorn</p>
             <div class="card-body">
-              <h3>Hobbit #3</h3>
-              <p class="card-text">Frodo Baggins</p>
+              <p class="card-text">sauron's finger says him his sword is dangerous ...</p>
             </div>
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 xl-4">
           <div class="card">
             <div class="cible">
-              <img src="https://pbs.twimg.com/profile_images/1423820133/Gimli5_400x400.jpg" class="card-img-top" alt="...">
+              <img src="chemin/gimli.png" class="card-img-top" alt="gimli">
             </div>
-              <p class="rewardone">Reward 250 gold coins</p>
+            <p class="rewardone1">dead</p>
+
+            <p class="card-name"><del style="color:orange"><span style="color:white">Gimli</span></del></p>
             <div class="card-body">
-              <h3>Yummy Dwarf</h3>
-              <p class="card-text">Gimli the dwarf</p>
+              <p class="card-text">a dwarf, wich a beard and an axe</p>
             </div>
           </div>
         </div>
@@ -176,15 +185,15 @@
     <div class="container">
       <hr>
       <div class="row">
+        <h2><span class="align-top"> ij </span>I have captured one of them, how to get my reward ?<span class="align-top"> ij </span></h2>
 
-        <div class="col-10">
-          <h2>I have captured one of them, how to get my reward ?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-9">        
+          <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
-        <div class="col-2">
-          <div class="card">
-            <img src="http://25.media.tumblr.com/6347ae27c606c7634b462bbcbc2002d9/tumblr_mfp2l4fFaM1qeeqito1_250.gif" class="card-img-top" alt="...">
+        <div class="col-xl-3 col-lg-1 col-md-1 col col-xs-1"> 
+          <div class="card1">
+            <img src="chemin/coin_sauron.png" alt="...">
           </div>
         </div>
       
@@ -203,28 +212,31 @@
         <div class="container">
           <hr>
           <div class="besthunterstitre">
-            <h2>Best hunters</h2>
+            <h2><span class="align-top"> ij </span>Our best hunters<span class="align-top"> ij </span></h2>
           </div>
 
           <div class="row">
-
-            <div class="col-5">
+            <div class="col-6">
               <div class="media">
-                <img src="http://img4.wikia.nocookie.net/__cb20130903141102/villains/images/thumb/4/4c/Guritz.png/185px-Guritz.png" class="mr-3" alt="...">
+                <img src="chemin/hunter1.png" class="mr-3" alt="...">
                 <div class="media-body">
                   <h5 class="mt-0">ElvesKiller22</h5>
-                  <p>2 captures - <a href="/linkprofile/" title="profile" target="_blank">Profile</a></p>
-                  <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up">Like</i> </button>
+                  <p>2 captures - <a class="link" href="/linkprofile/" title="profile" target="_blank">Profile</a></p>
+                  
+                  <button class="pace" type="button"><img src="chemin/12_pace.png" alt="Image1"></button> 
+
                 </div>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-6">
               <div class="media">
-                <img src="https://tse1.mm.bing.net/th?id=OIP.y3RvEYkai3LUSEo1X9XYzAAAAA&pid=Api" class="mr-3" alt="...">
+                <img src="chemin/hunter2.png" class="mr-3" alt="...">
                 <div class="media-body">
                   <h5 class="mt-0">Goblin45</h5>
-                  <p>1 captures - <a href="/linkprofile/" title="profile" target="_blank">Profile</a></p>
-                  <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up">Like</i> </button>
+                  <p>1 captures - <a class="link" href="/linkprofile/" title="profile" target="_blank">Profile</a></p>
+
+                  <button class="pace" type="button"><img src="chemin/18_pace.png" alt="Image2"></button> 
+
                 </div>
               </div>
             </div>
@@ -240,56 +252,55 @@
     <div class="container">
       <hr>
       <div class="aboutthering">
-            <h2>About the ring</h2>
+            <h2><span class="align-top"> ij </span>About the Ring<span class="align-top"> ij </span></h2>
           </div>
 
-          <div class="card">
+          <div class="card2">
             <div class="card-header">Ring Capabilities</div>
-          <div class="card-body">
+            <div class="card-body">
             <blockquote class="blockquote mb-1">
               <p>What can our master Sauron do with the ring ?</p>
             </blockquote>
       <!-- TABLEAU -->
             <table>
             <tr class="feature">
-              <td>Feature</td>
-              <td>Description</td>
+                <td>Feature</td>
+                <td>Description</td>
             </tr>
             <tr class="main">
-              <td>Main</td>
-              <td>One ring to rules them all</td>
+                <td>Main</td>
+                <td>One ring to rules them all</td>
             </tr>
             <tr class="invisibility">
-              <td>Invisibility</td>
-              <td>You can't see me</td>
+                <td>Invisibility</td>
+                <td>You can't see me</td>
             </tr>
             <tr class="power">
-              <td>Power</td>
-              <td>Destroy the world</td>
+                <td>Power</td>
+                <td>Destroy the world</td>
             </tr>
-          </table>
+            </table>
+            </div>
           </div>
-      </div>
 
-          <div class="card">
+          <div class="card3">
               
             <div class="card-header">Why the ring is awesome ?</div>
               <div class="row">
 
-                <div class="col-10">
+                <div class="col-8">
                   <blockquote class="blockquote mb-1">
-                    <p>My precioooooouus ! Hrk Hrk, we want our preeciooouuusss !</p>
+                    <p> my precioooooouus ! Hrk Hrk, we want our preeciooouuusss !</p>
                   </blockquote>
+                </div>
+
+                <div class="col-4">
+                  <img class="gollum" src="chemin/gollum.png" alt="...">
+                </div>
               </div>
 
-              <div class="col-2">
-                <div class="card">
-                <img src="https://u.ph.edim.co/fbd3/16631399_1_140.jpg" alt="...">
-              </div>
-            </div>
-              </div>
-            </div>
           </div>
+      </div>
   </section>
 
   
@@ -300,21 +311,27 @@
 
     <div class="container">
     <hr>
-      <h2>Join Mordor Army, we need you !</h2>
-      <div class="row">
-        <div class="col-2">
-          <div class="card">
-            <img src="http://bfme.ucoz.ru/avatar/79/2265-022623.jpg" class="card-img-top" alt="...">
-          </div>
-        </div>
+      <h2><span class="align-top"> ij </span>Join Mordor amry, we need you !<span class="align-top"> ij </span></h2>
 
-        <div class="col-10">
+      <div class="row">
+        
+
+        <div class="col-8">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
-        
+        <div class="col-4">
+            <img src="chemin/army.png" class="card-img-top" alt="...">
+        </div>
+
+        <div class="col-4">
+            <img src="chemin/weneedyou.png" class="card-img-top" alt="...">
+        </div>
       
-        <a href="Sauron4ever.com" class="btn btn-outline-dark" >More info on SauronRulesThemAll.com</a>
+        <div class="offset-2 col-4">
+          <a href="Sauron4ever.com" class="btn btn-outline-dark b1" >More info on</a>
+          <a href="Sauron4ever.com" class="btn btn-outline-dark b2" >SauronRulesThemAll.com</a>
+        </div>
       </div>
     </div>
 </section>
@@ -326,10 +343,12 @@
     <div class="container">
       <hr>
         <div class="contactustitre">
-          <h2>Contact us</h2>
+          <h2><span class="align-top"> ij </span>Contact us<span class="align-top"> ij </span></h2>
         </div>
 
-        <form>
+        <div class="row">
+          <div class="col-6">
+          <form>
           <div class="form-group">
             <label for="exampleInputEmail1"></label>
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="@">
@@ -337,7 +356,7 @@
 
           <div class="form-group">
             <label for="exampleInputPassword1"></label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Home">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Address">
           </div>
 
           <select name="listederoul">
@@ -348,9 +367,16 @@
 
           <div class="form-group">
             <label for="exampleFormControlTextarea1"></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Your Message</textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Your Message to the Master</textarea>
           </div>
-        </form>
+          </form>
+        </div>
+
+        <div class="col-6">
+            <img src="chemin/map.png" class="card-img-top" alt="...">
+        </div>
+
+        </div>
       </div>
       </section>
         
@@ -358,11 +384,11 @@
 
 
 <!-- FOOTER -->
+<section id="foot">
+  <div class="container">
+ 
 
-<div class="container">
-    <hr>
-
-      <div class="row bg-dark">
+      <div class="row">
         <div class="col-4">
           <a href="/link/">About us</a>
         </div>
@@ -374,7 +400,7 @@
         </div>
       </div>
 
-      <div class="row bg-dark">
+      <div class="row">
         <div class="col-4">
           <a href="/link/">Fellows</a>
         </div>
@@ -386,7 +412,7 @@
         </div>
       </div>
 
-      <div class="row bg-dark">
+      <div class="row">
         <div class="col-4">
           <a href="/link/">Join our Army</a>
         </div>
@@ -395,6 +421,7 @@
         </div>
       </div>
   </div>
+</section>
 
 
 

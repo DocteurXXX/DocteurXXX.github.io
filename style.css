@@ -1,0 +1,531 @@
+ 	/*FONTS*/
+
+@font-face{
+  font-family: 'aniron';
+  src: url(chemin/aniron/anirm___.ttf);
+  font-stretch : normal;
+  font-weight : normal;
+  font-style : normal;
+}
+@font-face{
+  font-family: 'tangwar';
+  src: url(chemin/tangwar/tnganb.ttf) ;
+  font-stretch : normal;
+  font-weight : normal;
+  font-style : normal;
+}
+@font-face{
+  font-family: 'party';
+  src: url(chemin/nancy/party.ttf) ;
+  font-stretch : normal;
+  font-weight : normal;
+  font-style : normal;
+}
+
+
+
+  /*BODY*/
+
+body
+{
+  background-color: #ffffff;
+  font-family: aniron;
+  color: #110000;
+  width: 1000px;
+  margin: auto;
+}
+
+.container
+{
+  margin: 0px;   /* Espacement entre container */
+}
+
+hr
+{
+  width: 50%;
+  height: 0.2rem;
+  background-color: #fe661d;
+  margin-top: 0px;
+}
+
+
+	/* NAVIGATION - NAVBAR */
+
+#navbar .container
+{
+  background-color: #fe661d;
+}
+
+.navbar-brand 
+{ 
+  font-size: 1.5em
+}
+
+.trait
+{
+  color: white;
+  font-family: arial;
+}
+
+.navc
+{
+  font-size: 0.9em;
+  color: white;
+  font-family: aniron;
+  margin-right: 1.4em;
+}
+
+
+.navc:hover
+{
+  color: white;
+}
+
+
+.navbar-brand img
+{
+  height: 40px;
+  width: 90%;
+}
+
+  /* SLIDESHOW - CARROUSEL */
+
+#carousel .container
+{
+ background-color: black;
+}
+
+.carousel-caption h1, .carousel-caption p
+{
+  font-size: 2.8em;
+  color: white;
+  font-family: party;
+}
+
+.carousel-item img
+{
+  width: 1000px;
+  height: 300px;
+}
+
+
+ /* FELLOWS */
+
+#fellows .container
+{
+  background-color: #FFF8DC;
+  padding-top: 20px;
+}
+
+
+.fellowstitre h2
+{
+  color: #545454;
+  font-size: 1.2em;
+  height: 3rem;
+}
+
+h2 .align-top
+{
+  color:#fe661d;
+  font-family:tangwar;
+}
+
+#fellows .card
+{
+  height: 27rem;
+}
+
+.rewardone
+{
+  width: 270px;
+  background: white;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 1%;
+  position: absolute;
+  z-index: 10;
+  color: #545454;
+  font-weight: bold;
+  text-align: center;
+  font-family: party;
+  font-size: 2.2rem;
+}
+
+.rewardone strong
+{
+  color: #fe661d;
+}
+
+.rewardone1
+{
+  width: 270px;
+  font-size: 2em;
+  background: none;
+  margin: 10px;
+  padding: 1%;
+  position: absolute;
+  z-index: 10;
+  color: #fe661d;  
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-name
+{
+  width: 270px;
+  margin-top: 150px;
+  font-size: 2.5rem;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-family: party; 
+}
+
+.card-body
+{
+  font-family: party;
+  font-size: 2rem;
+}
+
+.card:hover .rewardone
+{
+  opacity: 0;
+}
+
+.card:hover .rewardone1
+{
+  opacity: 0;
+}
+
+.card:hover .card-name
+{
+  opacity: 0;
+}
+
+.cible img
+{
+  opacity: 0.3;
+
+}
+
+.cible img:hover
+{
+  opacity: inherit;
+}
+
+
+    /* PILLS */
+
+.nav-pills a 
+{
+  background-color: #FFF8DC;
+  color : grey;
+  font-size: 1em;
+}
+
+.nav-pills
+{ 
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .navc
+{
+  font-size: 1em;
+  font-family: aniron;
+  margin-right: 1.4em;
+}
+
+#fellows .navc:hover
+{
+  color : #fe661d;
+}
+
+  /* CARDS */
+
+.card, .card-img-top
+{
+  border-radius: 15px;
+}
+
+.card img
+{
+    height: 20rem; 
+    width: 18rem; 
+    border-radius: 20px;
+}
+
+.card
+{
+  height: 25rem;
+  width: 18rem;
+  margin-bottom: 1rem;
+  background-color: black;
+}
+
+.card-text
+{
+  font-size: 0.8em;
+  color: white;
+}
+
+
+
+
+/* GET MY REWARDS */
+
+#Getmyreward .container
+{
+  background-color: black;
+}
+
+#Getmyreward h2
+{
+  font-size: 1.4rem;
+  color: white;
+}
+
+#Getmyreward p
+{
+  color: white;
+  font-size: 1rem;
+}
+
+.btn-outline-dark
+{
+  width: 200px;
+  background-color: #FFF8DC;
+  text-align: center;
+  margin: 0 auto;
+  color : #fe661d;
+}
+
+.btn
+{
+  margin-bottom: 20px;
+}
+
+  
+
+/* BEST HUNTERS */
+
+#besthunters
+{
+  background-color: #FFF8DC;
+  padding-bottom: 30px;
+}
+
+#besthunters h2
+{
+  font-size: 1.4rem;
+}
+
+#besthunters .row
+{
+margin-top: 30px;
+}
+
+#besthunters h5
+{
+  color: #fe661d;
+  font-family: aniron;
+}
+
+#besthunters .link
+{
+  color: black;
+}
+
+.media img
+{
+  width: 110px;
+  height: 110px;
+}
+
+.pace
+{
+  background-color: #FFF8DC;
+  border: none;
+}
+
+.pace img
+{
+  width: 100px;
+  height: 30px;
+}
+
+.btn-block
+{
+  width: 60px;
+}
+
+
+/* THE RING */
+
+#aboutthering
+{
+  background-color: black;
+  color: white;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#aboutthering h2
+{
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.card2 .card-header, .card3 .card-header
+{
+  background-color: #fe661d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card2, .card3
+{
+  margin-top: 30px;
+  background-color: gainsboro;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: solid #fe661d;
+}
+
+.blockquote p
+{
+  font-size: 1.5em;
+  color: black;
+  font-family: party;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+    /*TABLEAU*/
+table
+{
+  font-family: aniron;
+  font-size: 1.3rem;
+  border-collapse: collapse;
+  width: 90%;
+  margin:auto;
+  height: auto;
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+table .feature
+{
+  color: black;
+  font-weight: bold;
+}
+
+table .main, table .invisibility, table .power
+{
+  color: grey;
+}
+
+tr .feature
+
+{
+  column-width: 2rem;
+}
+
+tr td
+{
+  border: 2px solid #545454;
+  width: 45%;
+  height: 30px;
+}
+
+.gollum
+{
+    height: 80%;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+/* JOIN THE ARMY */
+
+#joinmordor
+{
+  background-color: #FFF8DC;
+  padding-bottom: 30px;
+  
+}
+
+#joinmordor h2
+{
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+#joinmordor .btn
+{
+  width: 400px;
+  border: none;
+}
+
+.b2
+{
+  background-color: black;
+}
+
+
+/* CONTACT US */
+
+#Contactus
+{
+  background-color: black;
+  color: white;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contactustitre .align-top
+{
+  color:#fe661d;
+  font-family:tangwar;
+}
+
+.contactustitre h2
+{
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.listederoul
+{
+  width: 0px;
+}
+
+
+textarea 
+{
+    max-width: 100%;
+}
+
+
+
+/* FOOTER */
+
+#foot
+{
+  background-color: #fe661d
+}
+
+#foot a
+{
+  color: white;
+  font-size: 0.7rem;
+}
+
+
+
